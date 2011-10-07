@@ -9,7 +9,7 @@ gem 'mysql2'
 #gem 'sqlite3'
 gem 'sass-rails', "  ~> 3.1.0"
 gem 'execjs'
-gem 'therubyracer'
+#gem 'therubyracer'
 
 gem 'prawn'
 #gem 'ruby-mysql'
@@ -32,7 +32,7 @@ group :test, :development do
   gem "factory_girl_rails"
   gem "rspec-rails"
   gem "capybara"
-  #gem "guard-rspec"
+  gem "guard-rspec"
 end
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
