@@ -1,5 +1,5 @@
 .nested-fields
-  =f.inputs do 
+  =f.inputs :name => "Work Experience Information" do 
     =f.input :employer
     =f.input :address
     =f.input :supervisor
@@ -11,6 +11,6 @@
     =f.input :salary_range 
     =f.input :responsibilities, :as => :text
     =f.input :reason_for_leaving, :as => :text
-  %li.no_bullet
-    =label_tag ''
-    =link_to_remove_association "remove work experience", f
+    %li.no_bullet
+      =label_tag ''
+      =link_to_remove_association "remove work experience", f
